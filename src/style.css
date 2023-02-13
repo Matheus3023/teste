@@ -145,10 +145,18 @@ main {
     justify-content: space-between;
     }
     
-    @media (max-width: 768px) {
-    .provas-sociais {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @media (max-width: 720px) {
+      .nome-ebook {
+        font-size: 18px;
+      }
+      .copy-ebook, .descricao {
+        background-color: #000000;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+      .provas-sociais {
+        flex-direction: column;
+      }
     }
-    }    
+    
