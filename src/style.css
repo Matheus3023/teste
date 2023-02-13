@@ -4,105 +4,105 @@ body, html {
   background: linear-gradient(to right, #FFCE9F, #FF9F00);
   background-size: 400% 400%;
   animation: gradientBG 20s ease infinite;
-  }
+  font-family: "Garamond", serif;
+  font-size: 20px;
+  color: #ffffff;
+}
   
-  @keyframes gradientBG {
+@keyframes gradientBG {
   0% {
-  background-position: 0% 50%;
+    background-position: 0% 50%;
   }
   50% {
-  background-position: 100% 50%;
+    background-position: 100% 50%;
   }
   100% {
-  background-position: 0% 50%;
+    background-position: 0% 50%;
   }
-  }
+}
   
-  header video {
+header video {
   width: 100%;
   height: auto;
-  }
+}
   
-  main {
+main {
   padding: 20px;
   text-align: center;
-  }
-  .titulo {
+}
+
+.titulo {
   font-family: "FLIX", sans-serif;
   font-size: 30px;
   color: black;
   margin-bottom: 10px;
-  }
-  
-  .descricao {
-  font-family: "Garamond", serif;
-  font-size: 20px;
-  color: #ffff;
+}
+
+.descricao {
   margin-bottom: 20px;
-  }
-  
-  .provas-sociais {
+}
+
+.provas-sociais {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-  }
-  
-  .provas-sociais img {
+}
+
+.provas-sociais img {
   width: 100%;
   height: auto;
   margin-right: 10px;
   margin-left: 10px;
-  }
-  
-  .titulo-ebook {
+}
+
+.titulo-ebook {
   font-family: "FLIX", sans-serif;
   font-size: 30px;
   color: black;
   margin-bottom: 10px;
-  }
-  
-  .copy-ebook {
-  font-family: "Garamond", serif;
-  font-size: 20px;
-  color: #ffffff;
+}
+
+.copy-ebook {
   margin-bottom: 20px;
+}
+
+.compra-ebook {
+  width: 20%;
+  margin: 0 auto 40px auto;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  border: 2px solid white;
+}
+
+@media screen and (max-width: 685px) {
+  .container{
+    display: block;
   }
-  
-  .compra-ebook {
-    width: 20%;
-    margin: 0 auto 40px auto;
-    padding: 20px;
-    border-radius: 5px;
-    text-align: center;
-    align-items: center;
-    position: relative;
-    border: 2px solid white;
-  }
-  @media screen and (max-width: 685px) {
-    .container{
-        display: block;
-    }
-  
-  @import url('https://fonts.googleapis.com/css2?family=Optien&display=swap');
-  
-  .nome-ebook {
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Optien&display=swap');
+
+.nome-ebook {
   font-family: "Optien", sans-serif;
   font-size: 20px;
   color: #000000;
   margin-bottom: 5px;
   text-shadow: 1px 1px #000;
   font-weight: bold;
-  }
-  
-  .valor-ebook {
+}
+
+.valor-ebook {
   font-family: "Garamond", serif;
   font-size: 25px;
   color: #000000;
   margin-bottom: 10px;
-  }
-  
-  .botao-compra {
+}
+
+.botao-compra {
   background-color: #366FE4;
   border: none;
   border-radius: 5px;
