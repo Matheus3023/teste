@@ -135,4 +135,29 @@ main {
     border-radius: 10px;
     border: 2px solid white;
   }
+  @media only screen and (max-width: 767px) {
+    .compra-ebook {
+      width: 100%;
+      margin: 0 auto 20px auto;
+      padding: 10px;
+    }
   
+    .nome-ebook {
+      font-size: 24px;
+    }
+  
+    .valor-ebook {
+      font-size: 30px;
+    }
+  
+    .botao-compra {
+      padding: 10px 20px;
+      font-size: 20px;
+    }
+  
+    .descricao, .copy-ebook {
+      width: 100%;
+      padding: 10px;
+      margin: 20px auto;
+    }
+  }
