@@ -70,16 +70,21 @@ body, html {
   }
   
   .compra-ebook {
-  width: 100%;
-  margin: 0 auto 20px auto;
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-  align-items: center;
-  position: relative;
-  border: 2px solid white;
-  overflow: auto;
+    width: 20%;
+    margin: 0 auto 40px auto;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    border: 2px solid white;
   }
+  @media (max-width: 767px) {
+    .compra-ebook {
+      width: 100%;
+      margin: 0 auto 20px auto;
+      padding: 10px;
+    }
   
   @import url('https://fonts.googleapis.com/css2?family=Optien&display=swap');
   
@@ -108,3 +113,5 @@ body, html {
   text-align: center;
   text-decoration: none;
   display: inline
+
+  
