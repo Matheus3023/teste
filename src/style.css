@@ -1,0 +1,138 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #FFCE9F, #FF9F00);
+  background-size: 400% 400%;
+  animation: gradientBG 20s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+header video {
+  width: 600px;
+  height: auto;
+}
+
+main {
+  padding: 40px;
+  text-align: center;
+}
+.titulo {
+  font-family: "FLIX", sans-serif;
+  font-size: 45px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.descricao {
+  font-family: "Garamond", serif;
+  font-size: 30px;
+  color: #ffff;
+  margin-bottom: 40px;
+}
+
+.provas-sociais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.provas-sociais img {
+  width: 600px;
+  height: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.titulo-ebook {
+  font-family: "FLIX", sans-serif;
+  font-size: 45px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.copy-ebook {
+  font-family: "Garamond", serif;
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.compra-ebook {
+  width: 20%;
+  margin: 0 auto 40px auto;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  border: 2px solid white;
+  overflow: auto;
+  }
+  
+ 
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Optien&display=swap');
+  
+  .nome-ebook { 
+    font-family: "Optien", sans-serif;
+    font-size: 34px;
+    color: #000000;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px #000;
+    font-weight: bold;
+  }
+  
+  .valor-ebook {
+    font-family: "Garamond", serif;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  .botao-compra {
+    background-color: #366FE4;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Optien", Optien;
+    font-size: 25px;
+    box-shadow: 0 0 10px 2px #5b83f2;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .botao-compra:hover { 
+    background-color: #ffffff;
+    color: #366FE4;
+    border: 2px solid #366FE4;
+    box-shadow: none;
+  }
+  
+  .descricao, .copy-ebook {
+    background-color: black;
+    padding: 20px;
+    color: #ffffff;
+    width: 50%;
+    display: block;
+    clear: both;
+    margin: 40px auto;
+    border-radius: 10px;
+    border: 2px solid white;
+  }
+  
