@@ -1,154 +1,184 @@
-body, html {
+body {
+  background-color: #5391CB;
+  font-family: 'Garamond', serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, #FFCE9F, #FF9F00);
-  background-size: 400% 400%;
-  animation: gradientBG 20s ease infinite;
-}
-
-@keyframes gradientBG {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-header video {
   width: 100%;
-  height: auto;
 }
 
 main {
-  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
   text-align: center;
 }
 
 .titulo {
-  font-family: "FLIX", sans-serif;
-  font-size: 30px;
-  color: black;
-  margin-bottom: 10px;
+  font-family: 'FLIX', sans-serif;
+  font-size: 36px;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.descricao, .copy-ebook {
-  font-family: "Garamond", serif;
-  font-size: 20px;
-  color: #ffff;
-  margin-bottom: 20px;
-  background-color: black;
-  padding: 10px;
-  border-radius: 10px;
-  border: 2px solid white;
+header video {
+  width: 100%;
+  height: 400px;
+}
+
+.descricao {
+  font-size: 18px;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: justify;
 }
 
 .provas-sociais {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .provas-sociais img {
-  width: 100%;
-  height: auto;
-  margin-right: 10px;
-  margin-left: 10px;
+  width: 30%;
 }
 
 .titulo-ebook {
-  font-family: "FLIX", sans-serif;
-  font-size: 30px;
-  color: black;
-  margin-bottom: 10px;
-}
-
-.compra-ebook {
-  width: 20%;
-  margin: 0 auto 40px auto;
-  padding: 20px;
-  border-radius: 5px;
-  text-align: center;
-  align-items: center;
-  position: relative;
-  border: 2px solid white;
-  background-color: #378BD1;
-}
-
-.botao-compra {
-  background-color: #378BD1;
-  border: none;
-  border-radius: 5px;
-  color: #ffffff;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline;
-  border: 2px solid white;
-  box-shadow: 0 0 10px #378BD1;
-}
-
-@media screen and (max-width: 685px) {
-  .provas-sociais {
-    display: block;
-  }
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Optien&display=swap');
-
-.nome-ebook {
-  font-family: "Optien", sans-serif;
-  font-size: 20px;
-  color: #000000;
-  margin-bottom: 5px;
+  font-family: 'FLIX', sans-serif;
+  font-size: 36px;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .copy-ebook {
-  font-family: "Optien", sans-serif;
-  font-size: 16px;
-  color: #ffffff;
-  background-color: #000000;
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 20px;
-  }
+  font-size: 18px;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: justify;
+}
 
-  .descricao {
-    font-family: "Optien", sans-serif;
-    font-size: 16px;
-    color: #ffffff;
-    background-color: #000000;
-    border-radius: 10px;
+img[alt="Ebook Transforma"] {
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.compra-ebook {
+  background-color: white;
+  width: 60%;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.nome-ebook {
+  font-family: 'FLIX', sans-serif;
+  font-size: 24px;
+  color: #1143A3;
+  margin-bottom: 25px;
+}
+
+.valor-ebook {
+  font-family: 'Garamond', serif;
+  font-size: 24px;
+  color: #1143A3;
+  margin-bottom: 25px;
+}
+
+.botao-compra {
+  background-color: #1143A3;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 25px;
+}
+@media only screen and (max-width: 767px) {
+  main {background-color: #1143A3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
-    margin-bottom: 20px;
     }
     
-    .botao-comprar {
-    font-family: "Optien", sans-serif;
-    font-size: 16px;
-    color: #ffffff;
-    background-color: #378BD1;
-    border-radius: 50px;
-    padding: 10px 20px;
-    box-shadow: 0 0 10px #378BD1;
-    text-align: center;
+    header video {
+    width: 100%;
+    }
+    
+    .titulo {
+    font-size: 24px;
     margin-top: 20px;
+    text-align: center;
+    }
+    
+    .descricao {
+    font-size: 16px;
+    margin: 20px;
+    text-align: center;
+    width: 80%;
     }
     
     .provas-sociais {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
     }
     
-    @media (max-width: 767px) {
-      .container {
-        padding: 0 20px;
-      }
+    .provas-sociais img {
+    width: 90%;
+    margin: 20px 0;
     }
     
+    .titulo-ebook {
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+    }
     
+    .copy-ebook {
+    font-size: 16px;
+    margin: 20px;
+    text-align: center;
+    width: 80%;
+    }
+    
+    .compra-ebook {
+    background-color: #FFFFFF;
+    border: 1px solid #1143A3;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    width: 80%;
+    }
+    
+    .nome-ebook, .valor-ebook {
+    font-size: 18px;
+    margin: 10px;
+    }
+    
+    .botao-compra {
+    background-color: #1143A3;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    }
+    }
