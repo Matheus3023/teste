@@ -4,11 +4,8 @@ body, html {
   background: linear-gradient(to right, #FFCE9F, #FF9F00);
   background-size: 400% 400%;
   animation: gradientBG 20s ease infinite;
-  font-family: "Garamond", serif;
-  font-size: 20px;
-  color: #ffffff;
 }
-  
+
 @keyframes gradientBG {
   0% {
     background-position: 0% 50%;
@@ -20,12 +17,12 @@ body, html {
     background-position: 0% 50%;
   }
 }
-  
+
 header video {
   width: 100%;
   height: auto;
 }
-  
+
 main {
   padding: 20px;
   text-align: center;
@@ -39,6 +36,9 @@ main {
 }
 
 .descricao {
+  font-family: "Garamond", serif;
+  font-size: 20px;
+  color: #ffff;
   margin-bottom: 20px;
 }
 
@@ -64,6 +64,9 @@ main {
 }
 
 .copy-ebook {
+  font-family: "Garamond", serif;
+  font-size: 20px;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
@@ -78,9 +81,24 @@ main {
   border: 2px solid white;
 }
 
+p {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
 @media screen and (max-width: 685px) {
-  .container{
+  .provas-sociais {
     display: block;
+    text-align: center;
+  }
+
+  .provas-sociais img {
+    margin: 0 auto 20px auto;
+  }
+
+  .compra-ebook {
+    width: 80%;
   }
 }
 
@@ -94,6 +112,7 @@ main {
   text-shadow: 1px 1px #000;
   font-weight: bold;
 }
+
 
 .valor-ebook {
   font-family: "Garamond", serif;
