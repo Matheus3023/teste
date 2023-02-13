@@ -35,11 +35,15 @@ main {
   margin-bottom: 10px;
 }
 
-.descricao {
+.descricao, .copy-ebook {
   font-family: "Garamond", serif;
   font-size: 20px;
   color: #ffff;
   margin-bottom: 20px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid white;
 }
 
 .provas-sociais {
@@ -63,13 +67,6 @@ main {
   margin-bottom: 10px;
 }
 
-.copy-ebook {
-  font-family: "Garamond", serif;
-  font-size: 20px;
-  color: #ffffff;
-  margin-bottom: 20px;
-}
-
 .compra-ebook {
   width: 20%;
   margin: 0 auto 40px auto;
@@ -79,26 +76,25 @@ main {
   align-items: center;
   position: relative;
   border: 2px solid white;
+  background-color: #378BD1;
 }
 
-p {
-  background-color: black;
-  color: white;
-  padding: 10px;
+.botao-compra {
+  background-color: #378BD1;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  border: 2px solid white;
+  box-shadow: 0 0 10px #378BD1;
 }
 
 @media screen and (max-width: 685px) {
   .provas-sociais {
     display: block;
-    text-align: center;
-  }
-
-  .provas-sociais img {
-    margin: 0 auto 20px auto;
-  }
-
-  .compra-ebook {
-    width: 80%;
   }
 }
 
@@ -109,26 +105,50 @@ p {
   font-size: 20px;
   color: #000000;
   margin-bottom: 5px;
-  text-shadow: 1px 1px #000;
-  font-weight: bold;
 }
 
-
-.valor-ebook {
-  font-family: "Garamond", serif;
-  font-size: 25px;
-  color: #000000;
-  margin-bottom: 10px;
-}
-
-.botao-compra {
-  background-color: #366FE4;
-  border: none;
-  border-radius: 5px;
+.copy-ebook {
+  font-family: "Optien", sans-serif;
+  font-size: 16px;
   color: #ffffff;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
   }
-  
+
+  .descricao {
+    font-family: "Optien", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    }
+    
+    .botao-comprar {
+    font-family: "Optien", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #378BD1;
+    border-radius: 50px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px #378BD1;
+    text-align: center;
+    margin-top: 20px;
+    }
+    
+    .provas-sociais {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+    @media (max-width: 768px) {
+    .provas-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    }    
