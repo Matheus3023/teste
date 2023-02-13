@@ -113,5 +113,20 @@ body, html {
   text-align: center;
   text-decoration: none;
   display: inline
-
-  
+  }
+  @media only screen and (max-width: 767px) {
+    header video, .provas-sociais img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .compra-ebook {
+      width: 100%;
+      margin: 0 auto 20px auto;
+      padding: 10px;
+    }
+    
+    .descricao, .copy-ebook {
+      width: 100%;
+    }
+  }
