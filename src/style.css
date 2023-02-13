@@ -79,11 +79,9 @@ body, html {
     position: relative;
     border: 2px solid white;
   }
-  @media (max-width: 767px) {
-    .compra-ebook {
-      width: 100%;
-      margin: 0 auto 20px auto;
-      padding: 10px;
+  @media screen and (max-width: 685px) {
+    .container{
+        display: block;
     }
   
   @import url('https://fonts.googleapis.com/css2?family=Optien&display=swap');
